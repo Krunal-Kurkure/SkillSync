@@ -20,7 +20,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-
         <Route path="/user/profile-update" element={<ProfilePage />} />
 
         <Route path="*" element={<div>Here is skillsync</div>} />
